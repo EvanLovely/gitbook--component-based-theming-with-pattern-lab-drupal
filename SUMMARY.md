@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Outline](chapter1.md)
+* [Suggested Reading](suggested-reading.md)
 
 ## The Setup
 
