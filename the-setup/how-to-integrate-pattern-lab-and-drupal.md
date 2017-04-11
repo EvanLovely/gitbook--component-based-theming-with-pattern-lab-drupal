@@ -1,48 +1,47 @@
 
 ## Website Ingredients
 
-- HTML[^1]
-- CSS[^2]
-- JS[^3]
+- **HTML** (Includes images.)
+- **CSS** (Includes fonts, and also images.)
+- **JS** (Could contain everything, but let's just sidestep that tangent.)
 
-[^1]: Includes images.
-
-[^2]: Includes fonts, and also images.
-
-[^3]: Could contain everything, but let's just sidestep that tangent.
-
----
-
-> CMS integration is made possible by shared[^4] assets.
+CMS integration is made possible by shared assets. We want to avoid copying assets whenever possible because what we're shooting for is building a system that is as consistent as possible with it's assets between Pattern Lab and Drupal.
 
 ## Two levels of Integrated Pattern Labs
 
 1. Shared CSS & JS
 2. Shared CSS, JS, & HTML
 
-[^4]: `'shared' !== 'copied'`
-
----
-
 ## Shared CSS & JS is awesome and a great place to start
 
 ![](/assets/shared-assets-folder-structure.png)
 
+Usually simply just pointing to the same CSS & JS files, with enough `../`. Pattern Lab's public directory keeps all compiled pages two levels deep, so you need to start with `../../` before you're at your public directory. If you had the below folder structure:
+
+- theme_name/
+  - css/style.css
+  - pattern-lab/
+    - public/
+
+You'd need to have this in your Pattern Lab header:
+
+```html
+<link rel="stylesheet" href="../../../../css/style.css">
+```
+
 ---
 
-## However
+However: `'Shared CSS, JS, & HTML' === holyGrail`[^1]
 
-### `'Shared CSS, JS, & HTML' === holyGrail`[^5]
-
-[^5]: Disclaimer: May not provide happiness, eternal youth nor food in infinite abundance.
+[^1]: _Disclaimer_: May not provide happiness, eternal youth nor food in infinite abundance.
 
 ---
 
-## Pattern Lab 1
+### Pattern Lab 1
 
 - Single templating engines: Mustache.
 
-## Pattern Lab 2
+### Pattern Lab 2
 
 - Multiple templating engines, most notably **Twig**, the new templating engine in Drupal 8!
 
