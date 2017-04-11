@@ -8,7 +8,7 @@
 
 * [How to Integrate Pattern Lab & Drupal](the-setup/how-to-integrate-pattern-lab-and-drupal.md)
 * [Overview of Pattern Lab 2 with Twig](the-setup/overview-of-pattern-lab-2-with-twig.md)
-* Overview of Drupal 8 with Twig
+* [Overview of Drupal 8 with Twig](the-setup/overview-of-drupal-8-with-twig.md)
 * [Integrating Assets: JS](the-setup/integrating-assets-js.md)
 * Dealing with two Twig rendering pipelines
 

@@ -2,7 +2,7 @@
 
 * **HTML** \(Includes images.\)
 * **CSS** \(Includes fonts, and also images.\)
-* **JS** \(Could contain everything, but let's just sidestep that tangent.\)
+* **JS** (Could contain everything, but let's just sidestep that tangent.)
 
 CMS integration is made possible by shared assets. We want to avoid copying assets whenever possible because what we're shooting for is building a system that is as consistent as possible with it's assets between Pattern Lab and Drupal.
 
