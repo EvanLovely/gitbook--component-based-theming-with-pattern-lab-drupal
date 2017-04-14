@@ -42,7 +42,9 @@ However, Shared CSS, JS, & HTML is the  holyGrail[^1] so let's talk about how we
 
 ---
 
-# Crucial Concept: Template Paths
+# Shared CSS, JS, and Twig {#css-js-twig}
+
+## Crucial Concept: Template Paths
 
 > How does the system find these files?[^6]
 
