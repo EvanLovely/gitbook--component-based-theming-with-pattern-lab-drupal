@@ -165,9 +165,8 @@ In `branding.twig`:
 
 [^1]: _Disclaimer_: May not provide happiness, eternal youth nor food in infinite abundance.
 
-[^6]: Also applies to `{% extends %}`, `{% embed %}`, and other Twig tags.
+[^6]: Also applies to `extends`, `embed`, and other Twig tags.
 
 [^7]: May be elsewhere, it's the value of `sourceDir` in config, then in the `_patterns/` sub-directory.
 
 [^8]: Works with any folders names, you don't have to use Atomic Design's atoms, molecules, or organisms.
-
