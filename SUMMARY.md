@@ -2,13 +2,14 @@
 
 * [Introduction](README.md)
 * [Suggested Reading](suggested-reading.md)
+* [Glossary](glossary.md)
 
 ## The Setup
 
 * [How to Integrate Pattern Lab & Drupal](the-setup/how-to-integrate-pattern-lab-and-drupal.md)
-    * [Intro](the-setup/how-to-integrate-pattern-lab-and-drupal.md#intro)
-    * [Shared CSS & JS](the-setup/how-to-integrate-pattern-lab-and-drupal.md#css-js)
-    * [Shared CSS, JS, and Twig](the-setup/how-to-integrate-pattern-lab-and-drupal.md#css-js-twig)
+  * [Intro](the-setup/how-to-integrate-pattern-lab-and-drupal.md#intro)
+  * [Shared CSS & JS](the-setup/how-to-integrate-pattern-lab-and-drupal.md#css-js)
+  * [Shared CSS, JS, and Twig](the-setup/how-to-integrate-pattern-lab-and-drupal.md#css-js-twig)
 
 ## The Process
 
