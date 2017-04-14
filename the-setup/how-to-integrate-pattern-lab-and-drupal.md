@@ -1,4 +1,4 @@
-## Website Ingredients
+## Website Ingredients {#intro}
 
 * **HTML** \(Includes images.\)
 * **CSS** \(Includes fonts, and also images.\)
@@ -11,7 +11,7 @@ CMS integration is made possible by shared assets. We want to avoid copying asse
 1. Shared CSS & JS
 2. Shared CSS, JS, & HTML
 
-## Shared CSS & JS is awesome and a great place to start
+## Shared CSS & JS is awesome and a great place to start {#css-js}
 
 ![](/assets/shared-assets-folder-structure.png)
 
