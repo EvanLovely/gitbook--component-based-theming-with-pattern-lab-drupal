@@ -1,8 +1,8 @@
 ## Website Ingredients
 
-* **HTML** (Includes images.)
-* **CSS** (Includes fonts, and also images.)
-* **JS** (Could contain everything, but let's just sidestep that tangent.)
+* **HTML** \(Includes images.\)
+* **CSS** \(Includes fonts, and also images.\)
+* **JS** \(Could contain everything, but let's just sidestep that tangent.\)
 
 CMS integration is made possible by shared assets. We want to avoid copying assets whenever possible because what we're shooting for is building a system that is as consistent as possible with it's assets between Pattern Lab and Drupal.
 
@@ -54,8 +54,6 @@ However, Shared CSS, JS, & HTML is the  holyGrail[^1] so let's talk about how we
 
 ![](/assets/file-structure.png)
 
-
-
 ### Pattern Lab include:
 
 Longhand:
@@ -72,9 +70,7 @@ Shorthand:
 
 This is awesome for just PL, but **must** be avoided for shared templates as Drupal does not have this.
 
-
 ### Drupal include:
-
 
 ```twig
 {% include 'themes/dashing/pattern-lab/source/_patterns/02-molecules/cards/card.twig' %}
@@ -118,7 +114,7 @@ Pattern Lab registers each folder[^8] below `pattern-lab/source/_patterns/` as a
 * `@atoms === 'pattern-lab/source/_patterns/01-atoms/'`
 * `@molecules === 'pattern-lab/source/_patterns/02-molecules/'`
 
-Use the Drupal module Component Libraries[^9] register same namespaces
+Use the [Drupal module Component Libraries](https://www.drupal.org/project/components)[^9] to register the same namespaces
 
 In `theme-name.info.yml`:
 
