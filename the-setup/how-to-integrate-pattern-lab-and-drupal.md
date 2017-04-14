@@ -13,7 +13,7 @@ CMS integration is made possible by shared assets. We want to avoid copying asse
 
 ## Shared CSS & JS is awesome and a great place to start {#css-js}
 
-![](assets/shared-assets-folder-structure.png)
+![](/assets/shared-assets-folder-structure.png)
 
 Usually simply just pointing to the same CSS & JS files, with enough `../`. Pattern Lab's public directory keeps all compiled pages two levels deep, so you need to start with `../../` before you're at your public directory. If you had the below folder structure:
 
