@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Suggested Reading](suggested-reading.md)
-* [Glossary](glossary.md)
+* [Glossary](GLOSSARY.md)
 
 ## The Setup
 
